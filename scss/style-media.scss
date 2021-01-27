@@ -1,0 +1,137 @@
+@media screen and (max-width: 1173px) {
+    .icecream-stock {
+        justify-content: center;
+    }
+
+    .icecream-stock-box {
+        width: auto;
+        height: auto;
+        // min-height: 230px;
+    }
+
+    .icecream-heading {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .icecream-stock-box-text {
+        margin: auto;
+        text-align: center;
+    }
+
+    .icecream-btn {
+        margin: auto;
+        margin-top: 43px;
+    }
+
+    .info-boxes {
+        justify-content: center;
+    }
+
+    .info-box-subscribe {
+        width: auto;
+        height: auto;
+    }
+
+    .form-subscribe {
+        width: auto;
+    }
+
+    .icecream-price-box {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    .icecream-price {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .footer-info {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+
+    .landing {
+        padding: 0px;
+    }
+
+    .header-name-icecream {
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    .header-icecream {
+        height: max-content;
+        margin-bottom: 15px;
+    }
+
+    .map {
+        background-image: url(../img/pinmap-mini.jpg);
+    }
+
+    .benefits-text {
+        width: 100%;
+    }
+
+    .footer-info {
+        align-self: center;
+        grid-row-gap: 4px;
+        grid-column-gap: 15px;
+        grid-template: 1fr 1fr 1fr 1fr/ max-content max-content;
+    }
+
+    .footer-social {
+        grid-template: max-content max-content/ max-content max-content;
+    }
+
+    .htmlacademy {
+        align-self: center;
+        max-width: max-content;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .info-box-subscribe {
+        height: auto;
+        background-size: cover;
+    }
+
+    .form-subscribe {
+        height: auto;
+
+        input {
+            margin-top: 15px;
+            margin-bottom: 10px;
+            width: 60%;
+        }
+    }
+
+    .info-box-news {
+        background-position: right;
+    }
+
+    .modal-search-form {
+        right: -100px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .link-text {
+        font-size: 12px;
+    }
+
+    .header-nav-list {
+        min-width: 30%;
+    }
+
+    .logo {
+        svg {
+            width: 95%;
+        }
+    }
+}
