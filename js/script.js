@@ -36,7 +36,7 @@ $(".slide-btn").click((event) => {
     setTimeout(() => {
         $(`.intro${index}`).css("display", "flex");
     }, 200)
-    $(".intro-num>span").html(`${index + 1}`);
+    $(".intro-num").html(`0${index + 1}`);
 
     for (let i = 0; i <= 3; i++) {
         if (i != index) {

@@ -301,18 +301,18 @@ body {
 .intro-num-block {
   display: flex;
   justify-content: space-between;
-  position: absolute;
   width: 100%;
-  max-width: 520px;
-  right: -20px;
-  top: -40px;
+  max-width: 500px;
+  position: absolute;
+  right: 0px;
 }
 
 .intro-num {
   color: #fff;
   font-size: 179px;
   font-weight: 900;
-  margin-right: -10px;
+  letter-spacing: 1px;
+  text-indent: 0px;
 }
 
 .intro-line {
